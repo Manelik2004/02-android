@@ -1,0 +1,465 @@
+body{
+    margin: 0 auto;
+    width: 100%;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+
+#header-fijo{
+    position: relative;
+    height: 60px;
+     z-index: 15;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    background-color: white;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+   
+     z-index: 15;
+    
+}
+#android{
+    clear: left;
+    display: block;
+    height: 50px;
+    left: 0;
+    padding: 16px 0 24px 24px;
+    position: relative;
+    top: 0;
+    width: 144px;
+    
+}
+#androide{
+    height: 28px;
+    
+}
+.menu{
+    float: left;
+    font-weight: bold;
+    
+}
+#lista:hover{
+    color: #6ab344;
+    
+}
+.informacion{
+    margin-top: 50px;
+}
+.linkazul{
+     color:#64ffda;
+}
+.textolink{
+    color: #46873b;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    line-height: 16px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    text-align: center;
+    margin-top: 50px;
+    font-weight: bold;
+    
+    
+}
+#imagengrande{
+    text-align: center;
+    top: 150px;
+    margin-top: 60px;
+    background-image: url(imagenes/marshmallow-1600.jpg);
+    width: 100%;
+    height: 550px;
+    background-size: cover;
+}
+
+.fiesta{
+    margin-top: 25px;
+    background-image: url(imagenes/banner.png);
+    width: 1349px;
+    height: 607px;
+    background-size: cover;
+}
+.link{
+    width: 150px;
+    left: -100px;
+    
+}
+#menuprincipal{
+    float: right;
+    margin: 0;
+    list-style: none;
+    margin-top: -100px;
+    margin-right:100px;
+
+}
+#menuprincipal1{
+    float: right;
+    margin-left: 140px;
+    margin-top: -60px;
+    list-style: none;
+    
+
+}
+#botonredondo {
+    background: rgb(100, 255, 218);
+    position: absolute;
+    right: 20%;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    bottom: 10px;
+    box-shadow: 0 4px 5px rgb(0,0,0,0.2);
+    
+}
+#flechaboton {
+   background-position: 0 0;
+    background-image:url(imagenes/lol.png);
+        width: 16px;
+    height: 16px;
+    position: absolute;
+    right: 34%;
+    margin-top: 20px;
+}
+
+#uno{
+    list-style: none;
+}
+
+#lista {
+    text-transform: uppercase;
+    border: none;
+    display: block;
+    list-style: none;
+    text-decoration: none;
+    margin-left: 30px;
+    
+     
+   
+    
+}
+#lista, span {
+    color: #757575;
+    cursor: pointer;
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    padding: 10px;
+   
+}
+.flecha{
+    float:right;
+}
+.androidversion h2 {
+    font-weight: 300;
+    line-height: 38px;
+    
+
+}
+
+.carro{
+    width: 400px;
+    height: 900px;
+    
+    
+}
+
+.textos {
+    color: #212121;
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 48px;
+    text-align: center;
+     margin-top: 50px;
+
+}
+.textos1{
+    color: #212121;
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 48px;
+    margin-left: 140px;
+    
+}
+
+.empezamos{
+    padding-bottom: 12px;
+    padding-top: 45px;
+}
+.texto {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center ;
+}
+.importante {
+    width: 50%;
+}
+html, p {
+    color: #212121;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: 24px;
+}
+.productos{
+    display: table;
+    margin: 0 auto;
+    max-width: 1500px;
+    overflow-x: auto;
+    position: relative;
+    width: 100%;
+    z-index: 4;
+}
+.producto {
+    display: table-cell;
+    padding: 0 1px;
+    position: relative;
+  
+}
+.producto.wear {
+    right: -600px;
+    left: -14px;
+}
+.reloj{
+    height=90px;
+    width=110px;
+}
+.producto.phone{
+    left: -74px;
+    
+   
+}
+.azulejo{
+    height=10px;
+    width=110px;
+}
+.producto.tablet{
+    left: -144px;
+     max-width: 220px;
+    
+   
+}
+.producto.tv {
+    left: -144px;
+    max-width: 568px;
+}
+.tele{
+    width: 327px;
+    height: 203px;
+}
+.contenedor1{
+    width: 327px;
+    height: 203px;
+}
+.contenedor2{
+   height=90px;
+    width=110px;
+}
+.producto.auto {
+    right: 10px;
+    padding-right: 10px;
+}
+
+a {
+    color: #6ab344;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+.contenedor {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    margin: 0;
+    position: relative;
+    
+    height: 100%;
+    
+}
+.tablet .contenedor{
+    width: 100px;
+    
+}
+.tv .contenedor {
+   
+    max-width: 568px;
+}
+.auto .contenedor {
+    width: 300px;
+    right: -90px;
+
+  
+}
+.phone .contenedor {
+    width: 100px;
+}
+.wear .contenedor {
+   width: 100px;
+}
+
+
+
+.imagen {
+    display: block;
+    position: relative;
+    max-width: 100%;
+}
+img {
+    border: 0;
+    display: block;
+}
+
+.producto p {
+    margin-bottom: 0;
+    padding: 32px 0 0 0;
+    text-align: center;
+}
+.button .tabs-link {
+    color: #6ab344;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    line-height: 16px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    text-align: center;
+}
+.link {
+    display: block;
+    text-align: center;
+}
+.azul{
+    background: #455a64;   
+}
+.block {
+    display: block;
+    padding: 24px;
+    
+}
+.woow {
+    width: 97%;
+}
+.blanco{
+    color: white;
+}
+.parrafo{
+    margin-bottom: 12px;
+    margin-top: 0;
+    font-size: 20px;
+    color: white;
+   
+}
+.total{
+    font-size: 28px;
+}
+.productosimagenes{
+    margin-left: 100px;
+    width: 80%;
+    
+}
+.medio{
+    margin-top: 40px;
+    text-align: center;
+}
+.grande{
+    width: 100%;
+}
+
+.carta-uno{
+    height: 565px;
+    width: 243px;  
+}
+.carta-dos{
+    width: 243px;
+    margin-top: -590px;
+    margin-left: 270px;
+   
+}
+.carta-tres{
+    width: 243px;
+    margin-top: -465px;
+    margin-left: 570px;
+      
+
+    
+    
+}
+.carta-cuatro{
+    width: 243px;
+    margin-top: -465px;
+    margin-left: 860px;
+       
+
+    
+}
+.imagenescarta{
+    width: 243px;
+    height: 169px;
+    
+    
+}
+.texto-cartas{
+    width: 243px;
+    height: 255px;
+}
+.centro{
+    margin-top: 25px;
+    text-align: justify;
+}
+.abajo1{
+      margin-top: 175px;
+    text-align: left;
+}
+.abajo3{
+    margin-top: 65px;
+    text-align: left;
+}
+.abajo2{
+    margin-top: 135px;
+    text-align: left;
+}
+.abajo4{
+    margin-top: 90px;
+    text-align: left;
+}
+footer{
+    margin-top: 100px;
+    width: 100%;
+   
+}
+.menu-footer ul{
+    width: 100%;
+    display: inline;
+    list-style-type: none;
+}
+
+
+#footergris{
+    background-color: #f5f5f5;
+}
+.medio-footer li a {
+    display: block;
+    margin-right: 10px;
+    padding: 7px 10px;
+}
+.textofooter{
+     top: 0px;
+    margin: 20px;
+    color: #999;
+    font-size: 14px;
+}
+ #menuprincipal1{
+    float: left;
+    left: -900px;
+   
+    list-style: none;
+   
+    
+
+}
